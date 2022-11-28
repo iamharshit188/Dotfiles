@@ -1,0 +1,3 @@
+rm -rf ~/.xinitrc 
+echo "exec i3" >> ~/.xinitrc
+startx .xinitrc
